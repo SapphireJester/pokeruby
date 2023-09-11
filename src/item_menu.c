@@ -3874,6 +3874,18 @@ static const struct {const u8 *lzPic; const u8 *lzPalette;} sBerryGraphicsTable[
     {gBerryPic_Apicot, gBerryPalette_Apicot},
     {gBerryPic_Lansat, gBerryPalette_Lansat},
     {gBerryPic_Starf,  gBerryPalette_Starf},
+	{gBerryPic_Pumkin, gBerryPalette_Pumkin},
+	{gBerryPic_Drash,  gBerryPalette_Drash},
+	{gBerryPic_Eggant, gBerryPalette_Eggant},
+	{gBerryPic_Strib,  gBerryPalette_Strib},
+	{gBerryPic_Chilan, gBerryPalette_Chilan},
+	{gBerryPic_Nutpea, gBerryPalette_Nutpea},
+	{gBerryPic_Ginema, gBerryPalette_Ginema},
+	{gBerryPic_Kuo,    gBerryPalette_Kuo},
+	{gBerryPic_Yago,   gBerryPalette_Yago},
+	{gBerryPic_Touga,  gBerryPalette_Touga},
+	{gBerryPic_Niniku, gBerryPalette_Niniku},
+	{gBerryPic_Topo,   gBerryPalette_Topo},
     {gBerryPic_Enigma, gBerryPalette_Enigma},
 };
 

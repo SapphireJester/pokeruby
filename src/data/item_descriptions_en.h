@@ -692,6 +692,66 @@ static const u8 gItemDescription_StarfBerry[] = _(
     "A hold item that\n"
     "sharply boosts a\n"
     "stat in a pinch.");
+	
+static const u8 sPumkinBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sDrashBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sEggantBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sStribBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sChilanBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sNutpeaBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sGinemaBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sKuoBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sYagoBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sTougaBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sNinikuBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
+	
+static const u8 sTopoBerryDesc[] = _(
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow a mystery.");
 
 static const u8 gItemDescription_EnigmaBerry[] = _(
     "{POKEBLOCK} ingredient.\n"

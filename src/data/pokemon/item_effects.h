@@ -64,6 +64,11 @@ const u8 gItemEffect_OranBerry[]    = {0x00, 0x00, 0x00, 0x00, 0x04, 0x00, 10};
 const u8 gItemEffect_PersimBerry[]  = {0x00, 0x00, 0x00, 0x01, 0x00, 0x00};
 const u8 gItemEffect_LumBerry[]     = {0x00, 0x00, 0x00, 0x3f, 0x00, 0x00};
 const u8 gItemEffect_SitrusBerry[]  = {0x00, 0x00, 0x00, 0x00, 0x04, 0x00, 30};
+const u8 gItemEffect_PumkinBerry[]  = {0x00, 0x00, 0x00, 0x04, 0x00, 0x00}; //freeze
+const u8 gItemEffect_DrashBerry[]   = {0x00, 0x00, 0x00, 0x10, 0x00, 0x00}; //poison
+const u8 gItemEffect_EggantBerry[]  = {0x80, 0x00, 0x00, 0x00, 0x00, 0x00}; //infatuation
+const u8 gItemEffect_YagoBerry[]    = {0x00, 0x00, 0x00, 0x08, 0x00, 0x00}; //burn
+const u8 gItemEffect_TougaBerry[]   = {0x00, 0x00, 0x00, 0x01, 0x00, 0x00}; //confusion
 
 const u8 *const gItemEffectTable[] =
 {
@@ -228,8 +233,20 @@ const u8 *const gItemEffectTable[] =
     NULL,
     NULL,
     NULL,
+    NULL, //starf berry
+	gItemEffect_PumkinBerry,
+    gItemEffect_DrashBerry,
+    gItemEffect_EggantBerry,
     NULL,
-    NULL
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    gItemEffect_YagoBerry,
+    gItemEffect_TougaBerry,
+    NULL,
+    NULL,
+    NULL  //enigma berry
 };
 
 #endif //GUARD_ITEM_EFFECTS_H

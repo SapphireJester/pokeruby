@@ -58,6 +58,18 @@
 #define NAME_APICOT_BERRY  _("APICOT")
 #define NAME_LANSAT_BERRY  _("LANSAT")
 #define NAME_STARF_BERRY   _("STARF")
+#define NAME_PUMKIN_BERRY  _("PUMKIN")
+#define NAME_DRASH_BERRY   _("DRASH")
+#define NAME_EGGANT_BERRY  _("EGGANT")
+#define NAME_STRIB_BERRY   _("STRIB")
+#define NAME_CHILAN_BERRY  _("CHILAN")
+#define NAME_NUTPEA_BERRY  _("NUTPEA")
+#define NAME_GINEMA_BERRY  _("GINEMA")
+#define NAME_KUO_BERRY     _("KUO")
+#define NAME_YAGO_BERRY    _("YAGO")
+#define NAME_TOUGA_BERRY   _("TOUGA")
+#define NAME_NINIKU_BERRY  _("NINIKU")
+#define NAME_TOPO_BERRY    _("TOPO")
 #define NAME_ENIGMA_BERRY  _("ENIGMA")
 
 static const u8 sBerryDescriptionPart1_Cheri[] = _("Blooms with delicate pretty flowers.");
@@ -144,6 +156,30 @@ static const u8 sBerryDescriptionPart1_Lansat[] = _("Said to be a legendary BERR
 static const u8 sBerryDescriptionPart2_Lansat[] = _("Holding it supposedly brings joy.");
 static const u8 sBerryDescriptionPart1_Starf[] = _("So strong, it was abandoned at the");
 static const u8 sBerryDescriptionPart2_Starf[] = _("world's edge. Considered a mirage.");
+static const u8 sBerryDescriptionPart1_Pumkin[] = _("This BERRY is amazingly sour.");
+static const u8 sBerryDescriptionPart2_Pumkin[] = _("It's heavy due to its dense filling.");
+static const u8 sBerryDescriptionPart1_Drash[] = _("When it ripens, this sweet BERRY");
+static const u8 sBerryDescriptionPart2_Drash[] = _("falls and sticks into the ground.");
+static const u8 sBerryDescriptionPart1_Eggant[] = _("Very dry tasting, especially the");
+static const u8 sBerryDescriptionPart2_Eggant[] = _("parts not exposed to the sun.");
+static const u8 sBerryDescriptionPart1_Strib[] = _("It grows slowly, but abundantly.");
+static const u8 sBerryDescriptionPart2_Strib[] = _("Makes a soothing sound when shaken.");
+static const u8 sBerryDescriptionPart1_Chilan[] = _("This sparse BERRY grows quickly.");
+static const u8 sBerryDescriptionPart2_Chilan[] = _("Its skin is quite tough.");
+static const u8 sBerryDescriptionPart1_Nutpea[] = _("This BERRY is rigid and cracks open");
+static const u8 sBerryDescriptionPart2_Nutpea[] = _("when the center is squeezed.");
+static const u8 sBerryDescriptionPart1_Ginema[] = _("Peel the thin shell and the BERRY");
+static const u8 sBerryDescriptionPart2_Ginema[] = _("becomes round. It is very sour.");
+static const u8 sBerryDescriptionPart1_Kuo[] = _("All five flavors mix deliciously.");
+static const u8 sBerryDescriptionPart2_Kuo[] = _("It leaves a rough flavor in the mouth.");
+static const u8 sBerryDescriptionPart1_Yago[] = _("Incredibly bitter. It is so light");
+static const u8 sBerryDescriptionPart2_Yago[] = _("that it feels weightless when held.");
+static const u8 sBerryDescriptionPart1_Touga[] = _("Tremendously spicy. Nobody has ");
+static const u8 sBerryDescriptionPart2_Touga[] = _("ever eaten this BERRY whole.");
+static const u8 sBerryDescriptionPart1_Niniku[] = _("Grows quickly but does not yield many");
+static const u8 sBerryDescriptionPart2_Niniku[] = _("BERRIES. The stem smells pleasant.");
+static const u8 sBerryDescriptionPart1_Topo[] = _("Grows slowly but yields many BERRIES.");
+static const u8 sBerryDescriptionPart2_Topo[] = _("It is full of bittersweet juices.");
 static const u8 sBerryDescriptionPart1_Enigma[] = _("A completely enigmatic BERRY.");
 static const u8 sBerryDescriptionPart2_Enigma[] = _("Appears to have the power of stars.");
 #elif defined(GERMAN)
@@ -189,6 +225,18 @@ static const u8 sBerryDescriptionPart2_Enigma[] = _("Appears to have the power o
 #define NAME_APICOT_BERRY  _("APIKO")
 #define NAME_LANSAT_BERRY  _("LANSAT")
 #define NAME_STARF_BERRY   _("KRAMBO")
+#define NAME_PUMKIN_BERRY  _("PUMKIN")
+#define NAME_DRASH_BERRY   _("DRASH")
+#define NAME_EGGANT_BERRY  _("EGGANT")
+#define NAME_STRIB_BERRY   _("STRIB")
+#define NAME_CHILAN_BERRY  _("CHILAN")
+#define NAME_NUTPEA_BERRY  _("NUTPEA")
+#define NAME_GINEMA_BERRY  _("GINEMA")
+#define NAME_KUO_BERRY     _("KUO")
+#define NAME_YAGO_BERRY    _("YAGO")
+#define NAME_TOUGA_BERRY   _("TOUGA")
+#define NAME_NINIKU_BERRY  _("NINIKU")
+#define NAME_TOPO_BERRY    _("TOPO")
 #define NAME_ENIGMA_BERRY  _("ENIGMA")
 
 static const u8 sBerryDescriptionPart1_Cheri[] = _("Erblüht mit hübschen, zarten Blumen.");
@@ -275,6 +323,30 @@ static const u8 sBerryDescriptionPart1_Lansat[] = _("Eine legendäre BEERE. Sie 
 static const u8 sBerryDescriptionPart2_Lansat[] = _("tragen bringt Freude.");
 static const u8 sBerryDescriptionPart1_Starf[] = _("So stark, dass sie an den Rand der");
 static const u8 sBerryDescriptionPart2_Starf[] = _("Welt verbannt wurde. Ein Märchen?");
+static const u8 sBerryDescriptionPart1_Pumkin[] = _("Diese BEERE ist unglaublich sauer. Sie");
+static const u8 sBerryDescriptionPart2_Pumkin[] = _("ist schwer aufgrund ihrer hohen Dichte.");
+static const u8 sBerryDescriptionPart1_Drash[] = _("Sobald diese süße BEERE reif ist, fällt");
+static const u8 sBerryDescriptionPart2_Drash[] = _("sie herab und bleibt im Boden stecken.");
+static const u8 sBerryDescriptionPart1_Eggant[] = _("Schmeckt sehr trocken, besonders die");
+static const u8 sBerryDescriptionPart2_Eggant[] = _("Stellen die keinen Sonnenschein bekamen.");
+static const u8 sBerryDescriptionPart1_Strib[] = _("Sie wächst langsam, dafür aber im Überfluss.");
+static const u8 sBerryDescriptionPart2_Strib[] = _("Wird sie geschüttelt, macht sie ein beruhigendes Geräusch");
+static const u8 sBerryDescriptionPart1_Chilan[] = _("Diese seltene BEERE wächst rasant.");
+static const u8 sBerryDescriptionPart2_Chilan[] = _("Ihre Schale ist ziemlich hart.");
+static const u8 sBerryDescriptionPart1_Nutpea[] = _("Diese BEERE ist hart und bricht auf");
+static const u8 sBerryDescriptionPart2_Nutpea[] = _("wenn man auf die Mitte drückt.");
+static const u8 sBerryDescriptionPart1_Ginema[] = _("Sobald sie geschält wird, kommt die");
+static const u8 sBerryDescriptionPart2_Ginema[] = _("runde BEERE zum Vorschein. Sie ist bitter.");
+static const u8 sBerryDescriptionPart1_Kuo[] = _("Eine schmackhafte Mischung aus fünf");
+static const u8 sBerryDescriptionPart2_Kuo[] = _("Geschmacksrichtungen. Ist beim Verzehr etwas hart.");
+static const u8 sBerryDescriptionPart1_Yago[] = _("Sehr bitter. Diese BEERE ist so hart, dass");
+static const u8 sBerryDescriptionPart2_Yago[] = _("es nicht möglich ist sie mit bloßen Händen zu öffnen.");
+static const u8 sBerryDescriptionPart1_Touga[] = _("Diese BEERE ist unglaublich scharf.");
+static const u8 sBerryDescriptionPart2_Touga[] = _("Keiner hat es bisher geschafft sie im Ganzen zu essen.");
+static const u8 sBerryDescriptionPart1_Niniku[] = _("Wächst schnell, dafür aber in geringer Menge.");
+static const u8 sBerryDescriptionPart2_Niniku[] = _("Ein angenehmer Duft entsteigt den Löchern auf der Oberseite.");
+static const u8 sBerryDescriptionPart1_Topo[] = _("Diese BEERE wächst langsam.");
+static const u8 sBerryDescriptionPart2_Topo[] = _("Ihr Inneres ist überaus sauer.");
 static const u8 sBerryDescriptionPart1_Enigma[] = _("Eine enigmatische BEERE. Sie scheint");
 static const u8 sBerryDescriptionPart2_Enigma[] = _("die Macht der Sterne zu besitzen.");
 #endif
@@ -952,6 +1024,198 @@ const struct Berry gBerries[] =
         .bitter = 10,
         .sour = 10,
         .smoothness = 30,
+    },
+    {
+        .name = NAME_PUMKIN_BERRY,
+        .firmness = BERRY_FIRMNESS_SUPER_HARD,
+        .size = 48,
+        .maxYield = 3,
+        .minYield = 2,
+        .description1 = sBerryDescriptionPart1_Pumkin,
+        .description2 = sBerryDescriptionPart2_Pumkin,
+        .stageDuration = 18,
+        .spicy = 0,
+        .dry = 0,
+        .sweet = 0,
+        .bitter = 0,
+        .sour = 40,
+        .smoothness = 65,
+    },
+    {
+        .name = NAME_DRASH_BERRY,
+        .firmness = BERRY_FIRMNESS_VERY_HARD,
+        .size = 134,
+        .maxYield = 3,
+        .minYield = 2,
+        .description1 = sBerryDescriptionPart1_Drash,
+        .description2 = sBerryDescriptionPart2_Drash,
+        .stageDuration = 18,
+        .spicy = 0,
+        .dry = 0,
+        .sweet = 40,
+        .bitter = 0,
+        .sour = 0,
+        .smoothness = 65,
+    },
+    {
+        .name = NAME_EGGANT_BERRY,
+        .firmness = BERRY_FIRMNESS_SOFT,
+        .size = 41,
+        .maxYield = 3,
+        .minYield = 2,
+        .description1 = sBerryDescriptionPart1_Eggant,
+        .description2 = sBerryDescriptionPart2_Eggant,
+        .stageDuration = 18,
+        .spicy = 0,
+        .dry = 40,
+        .sweet = 0,
+        .bitter = 0,
+        .sour = 0,
+        .smoothness = 65,
+    },
+    {
+        .name = NAME_STRIB_BERRY,
+        .firmness = BERRY_FIRMNESS_HARD,
+        .size = 122,
+        .maxYield = 12,
+        .minYield = 4,
+        .description1 = sBerryDescriptionPart1_Strib,
+        .description2 = sBerryDescriptionPart2_Strib,
+        .stageDuration = 24,
+        .spicy = 30,
+        .dry = 0,
+        .sweet = 0,
+        .bitter = 30,
+        .sour = 0,
+        .smoothness = 85,
+    },
+    {
+        .name = NAME_CHILAN_BERRY,
+        .firmness = BERRY_FIRMNESS_SOFT,
+        .size = 272,
+        .maxYield = 2,
+        .minYield = 1,
+        .description1 = sBerryDescriptionPart1_Chilan,
+        .description2 = sBerryDescriptionPart2_Chilan,
+        .stageDuration = 1,
+        .spicy = 30,
+        .dry = 0,
+        .sweet = 30,
+        .bitter = 0,
+        .sour = 0,
+        .smoothness = 85,
+    },
+    {
+        .name = NAME_NUTPEA_BERRY,
+        .firmness = BERRY_FIRMNESS_SUPER_HARD,
+        .size = 124,
+        .maxYield = 3,
+        .minYield = 1,
+        .description1 = sBerryDescriptionPart1_Nutpea,
+        .description2 = sBerryDescriptionPart2_Nutpea,
+        .stageDuration = 18,
+        .spicy = 0,
+        .dry = 0,
+        .sweet = 0,
+        .bitter = 0,
+        .sour = 0,
+        .smoothness = 5,
+    },
+    {
+        .name = NAME_GINEMA_BERRY,
+        .firmness = BERRY_FIRMNESS_VERY_HARD,
+        .size = 35,
+        .maxYield = 3,
+        .minYield = 2,
+        .description1 = sBerryDescriptionPart1_Ginema,
+        .description2 = sBerryDescriptionPart2_Ginema,
+        .stageDuration = 18,
+        .spicy = 0,
+        .dry = 30,
+        .sweet = 0,
+        .bitter = 0,
+        .sour = 30,
+        .smoothness = 70,
+    },
+    {
+        .name = NAME_KUO_BERRY,
+        .firmness = BERRY_FIRMNESS_HARD,
+        .size = 220,
+        .maxYield = 3,
+        .minYield = 1,
+        .description1 = sBerryDescriptionPart1_Kuo,
+        .description2 = sBerryDescriptionPart2_Kuo,
+        .stageDuration = 18,
+        .spicy = 0,
+        .dry = 0,
+        .sweet = 0,
+        .bitter = 0,
+        .sour = 0,
+        .smoothness = 5,
+    },
+    {
+        .name = NAME_YAGO_BERRY,
+        .firmness = BERRY_FIRMNESS_VERY_HARD,
+        .size = 36,
+        .maxYield = 3,
+        .minYield = 2,
+        .description1 = sBerryDescriptionPart1_Yago,
+        .description2 = sBerryDescriptionPart2_Yago,
+        .stageDuration = 18,
+        .spicy = 0,
+        .dry = 0,
+        .sweet = 0,
+        .bitter = 40,
+        .sour = 0,
+        .smoothness = 65,
+    },
+    {
+        .name = NAME_TOUGA_BERRY,
+        .firmness = BERRY_FIRMNESS_SUPER_HARD,
+        .size = 153,
+        .maxYield = 3,
+        .minYield = 2,
+        .description1 = sBerryDescriptionPart1_Touga,
+        .description2 = sBerryDescriptionPart2_Touga,
+        .stageDuration = 18,
+        .spicy = 40,
+        .dry = 0,
+        .sweet = 0,
+        .bitter = 0,
+        .sour = 0,
+        .smoothness = 65,
+    },
+    {
+        .name = NAME_NINIKU_BERRY,
+        .firmness = BERRY_FIRMNESS_HARD,
+        .size = 249,
+        .maxYield = 2,
+        .minYield = 1,
+        .description1 = sBerryDescriptionPart1_Niniku,
+        .description2 = sBerryDescriptionPart2_Niniku,
+        .stageDuration = 1,
+        .spicy = 0,
+        .dry = 30,
+        .sweet = 0,
+        .bitter = 30,
+        .sour = 0,
+        .smoothness = 85,
+    },
+    {
+        .name = NAME_TOPO_BERRY,
+        .firmness = BERRY_FIRMNESS_VERY_HARD,
+        .size = 88,
+        .maxYield = 12,
+        .minYield = 4,
+        .description1 = sBerryDescriptionPart1_Topo,
+        .description2 = sBerryDescriptionPart2_Topo,
+        .stageDuration = 24,
+        .spicy = 0,
+        .dry = 0,
+        .sweet = 30,
+        .bitter = 0,
+        .sour = 30,
+        .smoothness = 85,
     },
     {
         .name = NAME_ENIGMA_BERRY,

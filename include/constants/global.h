@@ -54,7 +54,7 @@
 #define BAG_KEYITEMS_COUNT  20
 #define BAG_POKEBALLS_COUNT 16
 #define BAG_TMHM_COUNT      64
-#define BAG_BERRIES_COUNT   46
+#define BAG_BERRIES_COUNT   56 //originally 46 (43 used + 3 unused). Tecnically only need 55 (43 original + 12 new).
 #define OBJECT_EVENT_TEMPLATES_COUNT 64
 #define DECOR_MAX_SECRET_BASE 16
 #define DECOR_MAX_PLAYERS_HOUSE 12

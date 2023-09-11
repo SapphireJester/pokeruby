@@ -692,6 +692,66 @@ static const u8 gItemDescription_StarfBerry[] = _(
     "Item (Tragen) hebt\n"
     "einen Statuswert\n"
     "in einer Notlage.");
+	
+static const u8 sPumkinBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sDrashBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sEggantBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sStribBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sChilanBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sNutpeaBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sGinemaBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sKuoBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sYagoBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sTougaBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sNinikuBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
+	
+static const u8 sTopoBerryDesc[] = _(
+    "Säe {POKEBLOCK}-Zutat\n"
+    "in Lehmboden, damit\n"
+    "Mysterium wächst.");
 
 static const u8 gItemDescription_EnigmaBerry[] = _(
     "Säe {POKEBLOCK}-Zutat\n"

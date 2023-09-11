@@ -1312,7 +1312,7 @@ static void sub_804F1BC(u16 itemID, u8 a1, struct BlenderBerry* berry)
 {
     u16 r4 = 0;
     u16 i;
-    if (itemID == ITEM_ENIGMA_BERRY)
+	if (itemID >= ITEM_PUMKIN_BERRY && itemID <= ITEM_ENIGMA_BERRY)
     {
         for (i = 0; i < 5; i++)
         {
