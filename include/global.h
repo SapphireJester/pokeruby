@@ -9,17 +9,18 @@
 #include "constants/global.h"
 
 // IDE support
-#if defined(__APPLE__) || defined(__CYGWIN__)
-#define _(x) x
-#define __(x) x
-#define INCBIN(x) {0}
-#define INCBIN_U8 INCBIN
-#define INCBIN_U16 INCBIN
-#define INCBIN_U32 INCBIN
-#define INCBIN_S8 INCBIN
-#define INCBIN_S16 INCBIN
-#define INCBIN_S32 INCBIN
-#endif
+#if defined(__APPLE__) || defined(__CYGWIN__) || defined(__INTELLISENSE__)
+// We define these when using certain IDEs to fool preproc
+#define _(x)        (x)
+#define __(x)       (x)
+#define INCBIN(...) {0}
+#define INCBIN_U8   INCBIN
+#define INCBIN_U16  INCBIN
+#define INCBIN_U32  INCBIN
+#define INCBIN_S8   INCBIN
+#define INCBIN_S16  INCBIN
+#define INCBIN_S32  INCBIN
+#endif // IDE support
 
 // For debug menu translations.
 // DTR("こんにちは", "Hello") will expand to "Hello" with DEBUG_FIX,
@@ -668,7 +669,7 @@ struct SaveBlock1 /* 0x02025734 */
     /*0x00*/ struct Coords16 pos;
     /*0x04*/ struct WarpData location;
     /*0x0C*/ struct WarpData warp1;
-    /*0x14*/ struct WarpData warp2;
+    /*0x14*/ struct WarpData dynamicWarp;
     /*0x1C*/ struct WarpData lastHealLocation;
     /*0x24*/ struct WarpData warp4;
     /*0x2C*/ u16 savedMusic;
