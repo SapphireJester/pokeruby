@@ -319,3 +319,11 @@ SlateportCity_Text_165B02:: @ 8165B02
 SlateportCity_Text_165B48:: @ 8165B48
 	.string "NAME RATER'S HOUSE\n"
 	.string "“POKéMON nicknames rated.”$"
+
+SlateportCity_Text_GetBerriesEverydayShareOne:
+	.string "I get BERRIES everyday by\n"
+	.string "scanning special cards.\p"
+	.string "Here, I'll share one with you.$"
+
+SlateportCity_Text_IsntTheEReaderGreat:
+	.string "Isn't the e-Reader great?$"

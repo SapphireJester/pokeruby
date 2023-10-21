@@ -639,3 +639,25 @@ SlateportCity_EventScript_14C020:: @ 814C020
 SlateportCity_EventScript_14C029:: @ 814C029
 	msgbox SlateportCity_Text_1647A7, MSGBOX_NPC
 	end
+
+SlateportCity_EventScript_BerryMan::
+	lock
+	faceplayer
+	dotimebasedevents
+	goto_if_set FLAG_DAILY_RECEIVED_BERRY_SLATEPORT, SlateportCity_EventScript_ReceivedBerry
+	msgbox SlateportCity_Text_GetBerriesEverydayShareOne, MSGBOX_DEFAULT
+	random NUM_SLATEPORT_MAN_BERRIES
+	addvar VAR_RESULT, NUM_SLATEPORT_MAN_BERRIES_SKIPPED
+	addvar VAR_RESULT, FIRST_BERRY_INDEX
+	giveitem VAR_RESULT
+	compare VAR_RESULT, 0
+	goto_if_eq Common_EventScript_ShowBagIsFull
+	setflag FLAG_DAILY_RECEIVED_BERRY_SLATEPORT  
+	msgbox SlateportCity_Text_IsntTheEReaderGreat, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_EventScript_ReceivedBerry::
+	msgbox SlateportCity_Text_IsntTheEReaderGreat, MSGBOX_DEFAULT
+	release
+	end

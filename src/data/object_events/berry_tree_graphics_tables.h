@@ -600,9 +600,6 @@ const u8 *const gBerryTreeGraphicsIdTablePointers[] = {
     gBerryTreeGraphicsIdTable,
     gBerryTreeGraphicsIdTable,
     gBerryTreeGraphicsIdTable,
-    gBerryTreeGraphicsIdTable,
-    gBerryTreeGraphicsIdTable,
-    gBerryTreeGraphicsIdTable,
     gBerryTreeGraphicsIdTable
 };
 

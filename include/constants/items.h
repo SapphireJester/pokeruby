@@ -378,6 +378,12 @@
 #define FIRST_BERRY_INDEX             ITEM_CHERI_BERRY
 #define LAST_BERRY_INDEX              ITEM_ENIGMA_BERRY
 
+// Berry ranges for NPC in Slateport who gives e-Reader berries
+#define FIRST_SLATEPORT_MAN_BERRY     		ITEM_PUMKIN_BERRY
+#define LAST_SLATEPORT_MAN_BERRY      		ITEM_TOPO_BERRY
+#define NUM_SLATEPORT_MAN_BERRIES         	(LAST_SLATEPORT_MAN_BERRY - FIRST_SLATEPORT_MAN_BERRY + 1)
+#define NUM_SLATEPORT_MAN_BERRIES_SKIPPED 	(FIRST_SLATEPORT_MAN_BERRY - FIRST_BERRY_INDEX)
+
 #define ITEM_TO_BERRY(itemId)(((itemId - FIRST_BERRY_INDEX) + 1))
 
 // Check if the item is one that can be used on a Pokemon.

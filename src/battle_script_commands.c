@@ -2844,7 +2844,7 @@ void SetMoveEffect(bool8 primary, u8 certain)
                     RecordAbilityBattle(gBattlerTarget, gLastUsedAbility);
                 }
                 else if (gBattleMons[gBattlerAttacker].item == ITEM_NONE
-                         && gBattleMons[gBattlerTarget].item != ITEM_ENIGMA_BERRY
+						 && !(gBattleMons[gBattlerTarget].item >= ITEM_PUMKIN_BERRY && gBattleMons[gBattlerTarget].item <= ITEM_ENIGMA_BERRY)
                          && gBattleMons[gBattlerTarget].item != ITEM_NONE)
                 {
                     u16* changedItem = &gBattleStruct->changedItems[gBattlerAttacker];
@@ -8812,10 +8812,10 @@ static void atkD2_tryswapitems(void)
             gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
         }
             // can't swap if two pokemon don't have an item
-            // or if either of them is an enigma berry or a mail
+            // or if either of them is an e-Reader berry or a mail
         else if ((gBattleMons[gBattlerAttacker].item == 0 && gBattleMons[gBattlerTarget].item == 0)
-                 || gBattleMons[gBattlerAttacker].item == ITEM_ENIGMA_BERRY
-                 || gBattleMons[gBattlerTarget].item == ITEM_ENIGMA_BERRY
+				 || (gBattleMons[gBattlerAttacker].item >= ITEM_PUMKIN_BERRY && gBattleMons[gBattlerAttacker].item <= ITEM_ENIGMA_BERRY)
+				 || (gBattleMons[gBattlerTarget].item >= ITEM_PUMKIN_BERRY && gBattleMons[gBattlerTarget].item <= ITEM_ENIGMA_BERRY)
                  || IS_ITEM_MAIL(gBattleMons[gBattlerAttacker].item)
                  || IS_ITEM_MAIL(gBattleMons[gBattlerTarget].item)) {
             gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
