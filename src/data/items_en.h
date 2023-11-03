@@ -2844,8 +2844,8 @@ const struct Item gItems[] =
         .pocket = POCKET_BERRIES,
 		.type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-        .battleUsage = 1,
-        .battleUseFunc = ItemUseInBattle_Medicine,
+        .battleUsage = 0,
+        .battleUseFunc = NULL,
         .secondaryId = 0,
     },
     {
