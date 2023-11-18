@@ -3874,18 +3874,18 @@ static const struct {const u8 *lzPic; const u8 *lzPalette;} sBerryGraphicsTable[
     {gBerryPic_Apicot, gBerryPalette_Apicot},
     {gBerryPic_Lansat, gBerryPalette_Lansat},
     {gBerryPic_Starf,  gBerryPalette_Starf},
-	{gBerryPic_Pumkin, gBerryPalette_Pumkin},
-	{gBerryPic_Drash,  gBerryPalette_Drash},
-	{gBerryPic_Eggant, gBerryPalette_Eggant},
-	{gBerryPic_Strib,  gBerryPalette_Strib},
-	{gBerryPic_Chilan, gBerryPalette_Chilan},
-	{gBerryPic_Nutpea, gBerryPalette_Nutpea},
-	{gBerryPic_Ginema, gBerryPalette_Ginema},
-	{gBerryPic_Kuo,    gBerryPalette_Kuo},
-	{gBerryPic_Yago,   gBerryPalette_Yago},
-	{gBerryPic_Touga,  gBerryPalette_Touga},
-	{gBerryPic_Niniku, gBerryPalette_Niniku},
-	{gBerryPic_Topo,   gBerryPalette_Topo},
+    {gBerryPic_Pumkin, gBerryPalette_Pumkin},
+    {gBerryPic_Drash,  gBerryPalette_Drash},
+    {gBerryPic_Eggant, gBerryPalette_Eggant},
+    {gBerryPic_Strib,  gBerryPalette_Strib},
+    {gBerryPic_Chilan, gBerryPalette_Chilan},
+    {gBerryPic_Nutpea, gBerryPalette_Nutpea},
+    {gBerryPic_Ginema, gBerryPalette_Ginema},
+    {gBerryPic_Kuo,    gBerryPalette_Kuo},
+    {gBerryPic_Yago,   gBerryPalette_Yago},
+    {gBerryPic_Touga,  gBerryPalette_Touga},
+    {gBerryPic_Niniku, gBerryPalette_Niniku},
+    {gBerryPic_Topo,   gBerryPalette_Topo},
     {gBerryPic_Enigma, gBerryPalette_Enigma},
 };
 
@@ -3914,7 +3914,9 @@ static void LoadBerryPic(u8 berryId)
 {
     struct SpritePalette spritePal;
 
-    if (berryId == 0x2A && IsEnigmaBerryValid() == TRUE)
+    //Check if the berry pic to load is for a valid Enigma Berry. 
+    //The Enigma Berry is the 55th berry, but berryId starts at 0, so Enigma Berry has a berryId of 54, and 54 in hexadecimal is 0x36. Thus, the Enigma Berry is berryId 0x36.
+    if (berryId == 0x36 && IsEnigmaBerryValid() == TRUE)
     {
         DrawBerryPic(gSaveBlock1.enigmaBerry.pic, ewramBerryPic);
         spritePal.data = gSaveBlock1.enigmaBerry.palette;
